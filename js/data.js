@@ -133,7 +133,7 @@ function refreshDataFromBooks() {
 function searchBook() {
     const array2 = document.getElementById("searchBookTitle").value;
 
-    const benar = "telah selesai dibaca."
+    const benar = "telah selesai dibaca"
     const salah = "belum selesai dibaca. Terakhir kali, kamu membaca halaman "
 
     function cekstatus() {
@@ -154,7 +154,7 @@ function searchBook() {
                 return book,
                     Swal.fire({
                         title: 'Buku Ditemukan',
-                        text: 'Buku dengan judul "' + array2 + '" berhasil ditemukan dengan status ' + cekstatus() + cekbuku(),
+                        text: 'Buku dengan judul "' + array2 + '" berhasil ditemukan dengan status ' + cekstatus() + cekbuku() + ".",
                         icon: 'success',
                         showCancelButton: false,
                         confirmButtonColor: '#288FB4',
