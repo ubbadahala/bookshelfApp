@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #82CCDD;
+    overflow: auto;
+}
+
+img {
+    position: static;
+    width: 42px;
+    height: 40px;
+    top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body,
+input,
+button {
+    font-family: 'Roboto', 'Montserrat', 'Open Sans', sans-serif;
+}
+
+input {
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+    overflow: auto;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.inputall {
+    width: 40%;
+    margin: 2%;
+}
+
+.bookshelf {
+    width: 60%;
+    margin: 2%;
+}
+
+.card {
+    margin-top: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
+    border-radius: 20px;
+}
+
+.action {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.green,
+.red,
+.orange,
+.blue {
+    font-size: 10px;
+}
+
+.green {
+    background-color: #4CAF50;
+    /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.orange {
+    background-color: #fab700;
+    /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: #f44336;
+    /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #288FB4;
+    /* Green */
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 12px 0px;
+}
+
+.input_section>h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.input_section>form>.input {
+    margin: 8px 0;
+}
+
+.input_section>form>button {
+    background: #288FB4;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section>form>.input>input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E2E6EE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
+    border-radius: 10px;
+}
+
+.input_section>form>.input>label {
+    color: black;
+    font-size: smaller;
+}
+
+.input_section>form>.input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section>form>.input_inline>label {
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.search_section>h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.search_section>form {
+    padding: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.search_section>form>label {
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.search_section>form>input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E2E6EE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
+    border-radius: 10px;
+}
+
+.search_section>form>button {
+    background-color: #288FB4;
+    padding: 5px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search_section>p {
+    text-align: center;
+    font-size: small;
+}
+
+.book_shelf {
+    padding: 16px;
+}
+
+.book_shelf>h2 {
+    color: black;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.book_shelf>.book_list {
+    padding: 8px;
+}
+
+.book_shelf>.book_list>.book_item {
+    padding: 8px 16px 16px 16px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.book_shelf>.book_list>.book_item>h3,
+p {
+    margin: 2%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    background-color: #288FB4;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin: 2%;
+    text-align: center;
+    font-size: medium;
+}
+
+.green:hover {
+    background-color: #3c913f;
+}
+
+.orange:hover {
+    background-color: #cf9902;
+}
+
+.red:hover {
+    background-color: #bd3228;
+}
+
+#inputBook {
+    margin: 2%;
+}
+
+#searchBook {
+    margin: 2%;
+}
+
+#bookSubmit:hover,
+#searchSubmit:hover,
+.blue:hover {
+    background-color: #18566d;
+    color: white;
+}
+
+#incompleteBookshelfList {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#completeBookshelfList {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+footer {
+    padding: 7.5px;
+    background-color: #288FB4;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+}
+
+@media screen and (max-width: 800px) {
+    #incompleteBookshelfList,
+    #completeBookshelfList {
+        max-height: 500px;
+        overflow: auto;
+    }
+    .inputall,
+    .bookshelf {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    main {
+        flex-direction: column;
+    }
+}
