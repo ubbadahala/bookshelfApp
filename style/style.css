@@ -328,6 +328,30 @@ footer {
     font-size: small;
 }
 
+body::-webkit-scrollbar,
+.book_shelf>.book_list::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #82ccdd00;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid #82CCDD;
+}
+
+.book_shelf>.book_list::-webkit-scrollbar-track {
+    background: white;
+}
+
+.book_shelf>.book_list::-webkit-scrollbar-thumb {
+    background-color: #288FB4;
+    border-radius: 50px;
+    border: 4px solid white;
+}
+
 @media screen and (max-width: 800px) {
     #incompleteBookshelfList,
     #completeBookshelfList {
