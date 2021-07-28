@@ -7,8 +7,12 @@ Inside this repository, there is an HTML file along with CSS and JavaScript file
 
 
 
-Talking about the website 💁‍♂️, 
-this project is built for managing book data like a bookshelf. You can:
+
+Talking about the website 💁‍♂️ 
+this project is built for managing book data like a bookshelf. In this site, you can do some stuffs like
+
+
+
 
 ✅ Add book info (title, author, year, and page),
 
