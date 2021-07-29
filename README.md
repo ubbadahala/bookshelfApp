@@ -30,4 +30,4 @@ Enjoy the web and have a great day! :)
 
 # Snapshot Website
 
-![snapshot bookshelfApp](/assets/snapshot.png)
+![snapshot bookshelfApp](/assets/snapshot.PNG)
