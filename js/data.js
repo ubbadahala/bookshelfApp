@@ -164,7 +164,7 @@ function searchBook() {
         }
         Swal.fire({
             title: 'Buku Tidak Ditemukan',
-            text: 'Buku dengan judul "' + array2 + '" tidak ditemukan.',
+            text: 'Buku dengan judul "' + array2 + '" tidak ditemukan. Coba cek kembali penulisan judul buku yang kamu masukkan pada kolom pencarian.',
             icon: 'error',
             showCancelButton: false,
             confirmButtonColor: '#288FB4',
