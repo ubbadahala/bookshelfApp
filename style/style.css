@@ -319,6 +319,14 @@ h3 {
     overflow-y: auto;
 }
 
+#inputBookTitle:focus,
+#inputBookAuthor:focus,
+#inputBookYear:focus,
+#inputBookPage:focus,
+#searchBookTitle:focus {
+    box-shadow: 0px 4px 20px rgba(34, 201, 238, 0.38);
+}
+
 footer {
     padding: 7.5px;
     background-color: #288FB4;
