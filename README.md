@@ -19,7 +19,7 @@ this project is built for managing book data like a bookshelf. In this site, you
 <br>
 Don't need to worry about losing the data when you close the tab browser or the browser itself since this website use localStorage in the JavaScript code to store your data. 
 So, may this repository could inspire you if you're planning to build a similar website. 
-Enjoy the web and have a great day! :)
+Enjoy the web and have a great day! 😄
 <br>
 <br>
 # Website Snapshot
