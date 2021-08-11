@@ -22,7 +22,6 @@ So, may this repository could inspire you if you're planning to build a similar 
 Enjoy the web and have a great day! :)
 <br>
 <br>
-<br>
 # Website Snapshot
 
 ![snapshot bookshelfApp](/assets/snapshot.PNG)
